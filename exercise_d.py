@@ -28,12 +28,6 @@ for x in range(num):
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
-sum = 0
-# pdb.set_trace()
-for number in numbers:
-    if number == 6:
-        continue
-print(sum)
 
     
 
